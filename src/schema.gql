@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Post {
+  id: ID!
+  title: String!
+  content: String!
+  tags: [String!]!
+  createdAt: String!
+  updatedAt: String!
+}
+
+type Query {
+  posts: [Post!]!
+}
