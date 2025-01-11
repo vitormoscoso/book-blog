@@ -15,8 +15,8 @@ export class Post {
   tags: string[];
 
   @Field()
-  createdAt: string;
+  createdAt: Date;
 
   @Field()
-  updatedAt: string;
+  updatedAt: Date;
 }
